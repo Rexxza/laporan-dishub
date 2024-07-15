@@ -14,6 +14,30 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <style>
+        .kesan {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 10rem;
+        }
+
+        .pesan {
+            display: flex;
+            gap: 100px;
+        }
+
+        .kesan .pesan .card-5 {
+            border-radius: 8px;
+            border: 2px solid black;
+            padding: 20px;
+            padding-top: 2rem;
+            width: 30rem;
+            text-align: center;
+
+        }
+    </style>
+
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
@@ -24,19 +48,19 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
+                        <a href="index.html#home" class="nav__link active-link">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
+                        <a href="index.html#about" class="nav__link">Kegiatan</a>
                     </li>
+                    <!-- <li class="nav__item">
+                        <a href="index.html#products" class="nav__link">Products</a>
+                    </li> -->
+                    <!-- <li class="nav__item">
+                        <a href="index.html#faqs" class="nav__link">FAQs</a>
+                    </li> -->
                     <li class="nav__item">
-                        <a href="#products" class="nav__link">Products</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#faqs" class="nav__link">FAQs</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact Us</a>
+                        <a href="index.html#contact" class="nav__link">Informasi</a>
                     </li>
                 </ul>
 
@@ -56,6 +80,43 @@
         </nav>
     </header>
 
+    <div class="container">
+        <img src="./assets/img/dishub.jpg" style="width: 100%; height: auto;" alt="">
+        <div class="text-center">
+            <h1>Profil Dinas Perhubungan Kota Malang</h1>
+            <p>Dinas Perhubungan Kota Malang adalah lembaga pemerintah yang bertanggung jawab atas pengelolaan dan
+                pengembangan sektor transportasi dan perhubungan di Kota Malang. Dinas ini berperan penting dalam
+                menciptakan sistem transportasi yang efisien, aman, dan teratur guna mendukung mobilitas masyarakat
+                serta pertumbuhan ekonomi di Kota Malang.</p>
+        </div>
+    </div>
+
+    <div class="container" style="padding-top: 10rem;">
+        <h1>Struktur Organisasi</h1>
+    </div>
+    <div class="container"
+        style="display: flex;align-items: center;flex-direction: column; text-align: center; padding-top: 5rem ; padding-bottom: 10rem;">
+        <img src="./assets/img/pemimpin.png" alt="">
+        <h3>Drs. R. Widjaja Saleh Putra</h3>
+        <h5>Kepala Dinas</h5>
+    </div>
+
+    <div class="kesan" style="padding-top: 3rem;">
+        <div class="pesan">
+            <div class="card-5" style="padding-top: 2rem;">
+                <h2>Visi</h2>
+                <h4>Terwujudnya Sistem Transportasi yang Handal dan Terintegrasi</h4>
+            </div>
+            <div class="card-5" style="text-align: center;">
+                <h2>Misi</h2>
+                <ul>
+                    <li>
+                        <h4 style="padding-top: 1rem;">Meningkatkan Kualitas Sistem Transportasi Aman, Tertib, dan Nyaman</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 
 
